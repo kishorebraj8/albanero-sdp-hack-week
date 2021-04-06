@@ -20,9 +20,9 @@ public class Problem8ArrayMaxSum {
 				}
 			}
 		}
-		for (int i = 0; i < n; i++) {
-			System.out.println(numbers[i]);
-		}
+		//for (int i = 0; i < n; i++) {
+		//	System.out.println(numbers[i]);
+		//}
 
 		System.out.println("Enter the value of K :");
 		int k = input.nextInt();
