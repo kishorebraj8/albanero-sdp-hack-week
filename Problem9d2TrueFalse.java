@@ -14,7 +14,7 @@ public class Problem9d2TrueFalse {
 		int n = input.nextInt();
 		int flag = 0;
 		for (int i = 0; i < p; i++) {
-			for (int j = 0; j < p; j++) {
+			for (int j = i+1; j < p; j++) {
 
 				if (arr[i] + arr[j] == n) {
 					flag++;
