@@ -10,7 +10,7 @@ public class Problem39d4 {
 		for (int i = 0; i < a; i++) {
 			arr[i] = input.nextInt();
 		}
-		int max = Integer.MIN_VALUE, e = 0;
+		int max = 0, e = 0;
 		for (int i = 0; i < a; i++) {
 			e = e + arr[i];
 			if (max < e) {
