@@ -28,10 +28,10 @@ public class Problem26d3 {
 				}
 			}
 			if (flag == 1) {
-				System.out.println("false");
+				System.out.println("true");
 
 			} else {
-				System.out.println("true");
+				System.out.println("false");
 			}
 		}
 	}
